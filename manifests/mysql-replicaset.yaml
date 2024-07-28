@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: mysql-container
-          image: 937274605158.dkr.ecr.us-east-1.amazonaws.com/database:latest
+          image: 309676119673.dkr.ecr.us-east-1.amazonaws.com/database:latest
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: pw
