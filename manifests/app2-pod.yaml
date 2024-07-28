@@ -8,12 +8,12 @@ metadata:
 spec:
   containers:
   - name: application-container
-    image: 937274605158.dkr.ecr.us-east-1.amazonaws.com/application:latest-v2
+    image: 309676119673.dkr.ecr.us-east-1.amazonaws.com/application:latest-v2
     ports:
     - containerPort: 8080
     env:
     - name: DBHOST
-      value: 10.96.81.176
+      value: 50.17.81.243
     - name: DBUSER
       value: "root"
     - name: DBPWD
